@@ -88,25 +88,11 @@ Directory Structure
 ├── my_ball                                    # Model files 
 │   ├── model.config
 │   ├── model.sdf
-├── video.gif                                  # Video gif
-├── video.mp4                                  # Video fle
 ``` 
-- [drive_bot.cpp](/catkin_ws/src/ball_chaser/src/drive_bot.cpp): ROS service C++ script, command the robot with specify speeds.  
-- [process_images.cpp](/catkin_ws/src/ball_chaser/src/process_images.cpp): ROS service C++ script, process the camera image and return requested speeds.   
-- [robot_description.launch](/catkin_ws/src/my_robot/launch/robot_description.launch): Create robot model in Gazebo world.  
-- [hokuyo.dae](/catkin_ws/src/my_robot/meshes/hokuyo.dae): Hokuyo LiDAR sensor mesh model.  
-- [my_robot.gazebo](/catkin_ws/src/my_robot/urdf/my_robot.gazebo): Define my_robot URDF model plugins.  
-- [my_robot.xacro](/catkin_ws/src/my_robot/urdf/my_robot.xacro): Define my_robot URDF model.  
-- [amcl.launch](/catkin_ws/src/my_robot/launch/amcl.launch): Launch AMCL node
-- [map.pgm](/catkin_ws/src/my_robot/maps/map.pgm): Generated myoffice map
-- [map.yaml](/catkin_ws/src/my_robot/maps/map.yaml): Info for myoffice map
-- [default.rviz](/catkin_ws/src/my_robot/rviz/default.rviz): Default rviz
-- [map.pgm](/catkin_ws/src/pgm_map_creator/maps/map.pgm): Generated office map
 
 ## Run the project  
 * Clone this repository
 ```
-git clone https://github.com/anyuguo/Robotics-Software-Engineer-Udacity/tree/master/P3-Where-Am-I.git
 ```
 * Open the repository and make  
 ```
